@@ -13,6 +13,11 @@ export default function App() {
     localidade: '',
     uf: '',
     estado: '',
+    regiao: '',
+    ibge: '', 
+    gia: '',
+    ddd: '',
+    siafi: '',
   });
 
   async function buscarCEP(){
@@ -40,6 +45,11 @@ export default function App() {
       <Text>{end.localidade}</Text>
       <Text>{end.uf}</Text>
       <Text>{end.estado}</Text>
+      <Text>{end.regiao}</Text>
+      <Text>{end.ibge}</Text>
+      <Text>{end.gia}</Text>
+      <Text>{end.ddd}</Text>
+      <Text>{end.siafi}</Text>
     </View>
   );
 }
